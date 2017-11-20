@@ -10,4 +10,7 @@ git push origin (назва нової бренчі)
 mkdir assets uploads створюю дві папки
 touch index.html створюю файл
 
-git
+git add .
+git commit -m "name"
+git push
+
