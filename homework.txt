@@ -1,16 +1,22 @@
-1.Create new branch with master
+ï»¿1.Create new branch with master
 git checkout -b architecture
-öÿ êîìàíäà ñòâîðþº ³ çðàçó ïåðåêëþ÷àºòüñÿ íà íå¿
-ùîá ïåðåêëþ÷èòèñü íàçàä º êîìàíäà: 
+Ñ†Ñ ÐºÐ¾Ð¼Ð°Ð½Ð´Ð° ÑÑ‚Ð²Ð¾Ñ€ÑŽÑ” Ñ– Ð·Ñ€Ð°Ð·Ñƒ Ð¿ÐµÑ€ÐµÐºÐ»ÑŽÑ‡Ð°Ñ”Ñ‚ÑŒÑÑ Ð½Ð° Ð½ÐµÑ—
+Ñ‰Ð¾Ð± Ð¿ÐµÑ€ÐµÐºÐ»ÑŽÑ‡Ð¸Ñ‚Ð¸ÑÑŒ Ð½Ð°Ð·Ð°Ð´ Ñ” ÐºÐ¾Ð¼Ð°Ð½Ð´Ð°: 
 git checkout master.
-Êîëè ñòâîðþºìî íîâó áðåí÷ó ïîòð³áíî ¿¿ çàïóøèòè:
-git push origin (íàçâà íîâî¿ áðåí÷³)
+ÐšÐ¾Ð»Ð¸ ÑÑ‚Ð²Ð¾Ñ€ÑŽÑ”Ð¼Ð¾ Ð½Ð¾Ð²Ñƒ Ð±Ñ€ÐµÐ½Ñ‡Ñƒ Ð¿Ð¾Ñ‚Ñ€Ñ–Ð±Ð½Ð¾ Ñ—Ñ— Ð·Ð°Ð¿ÑƒÑˆÐ¸Ñ‚Ð¸:
+git push origin (Ð½Ð°Ð·Ð²Ð° Ð½Ð¾Ð²Ð¾Ñ— Ð±Ñ€ÐµÐ½Ñ‡Ñ–)
 
 
-mkdir assets uploads ñòâîðþþ äâ³ ïàïêè
-touch index.html ñòâîðþþ ôàéë
+mkdir assets uploads ÑÑ‚Ð²Ð¾Ñ€ÑŽÑŽ Ð´Ð²Ñ– Ð¿Ð°Ð¿ÐºÐ¸
+touch index.html ÑÑ‚Ð²Ð¾Ñ€ÑŽÑŽ Ñ„Ð°Ð¹Ð»
 
 git add .
 git commit -m "name"
 git push
+
+Ð”Ð¾Ð´Ð°Ñ”Ð¼Ð¾ Ñ„Ð°Ð¹Ð»Ð¸ Ð° Ð¿Ð°Ð¿ÐºÑƒ assets:
+cd assets -> touch all.js css.js
+
+
+
 
