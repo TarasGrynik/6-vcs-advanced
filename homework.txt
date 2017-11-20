@@ -1,0 +1,13 @@
+1.Create new branch with master
+git checkout -b architecture
+ця команда створює і зразу переключається на неї
+щоб переключитись назад є команда: 
+git checkout master.
+Коли створюємо нову бренчу потрібно її запушити:
+git push origin (назва нової бренчі)
+
+
+mkdir assets uploads створюю дві папки
+touch index.html створюю файл
+
+git
