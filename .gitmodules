@@ -1,3 +1,0 @@
-[submodule "submodule/submodule"]
-	path = submodule/submodule
-	url = https://github.com/TarasGrynik/6-vcs-advanced
